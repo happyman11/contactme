@@ -6,4 +6,4 @@ Created on Sun Feb 27 11:33:22 2022
 @author: applications
 """
 
-web: gunicorn contactplatform.wsgi
+web: python manage.py runserver 0.0.0.0:\$PORT
